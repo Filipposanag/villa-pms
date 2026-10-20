@@ -1,0 +1,20 @@
+# WordPress / PHP
+*.log
+vendor/
+node_modules/
+
+# Secrets & local config (Stripe keys live in WP options, never in code)
+.env
+.env.*
+*.pem
+*.key
+
+# Build artifacts
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
