@@ -1,5 +1,8 @@
 # Villa PMS
 
+**English** · [Ελληνικά](README.el.md)
+
+
 A self-contained **WordPress booking plugin** for a single short-stay property (villa / apartment). It handles direct online bookings with **Stripe** card payments, keeps availability in sync with **Booking.com** and **Airbnb** over **iCal**, manages refunds, per-day pricing and guest emails — without relying on an external channel manager or SaaS.
 
 Built from scratch in plain PHP against the WordPress plugin APIs. Stripe secrets are stored in WordPress options and are never committed to the code.
